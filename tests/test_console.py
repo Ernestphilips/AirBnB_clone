@@ -546,7 +546,7 @@ EOF  all  count  create  destroy  help  quit  show  update
         self.assertIn(val, s)
 
     def test_update_everything(self):
-        """Tests update command with errthang, like a baws."""
+        """Tests update command with errthang, like  baws."""
         for classname, cls in self.classes().items():
             uid = self.create_class(classname)
             for attr, value in self.test_random_attributes.items():
